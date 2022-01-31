@@ -1,0 +1,53 @@
+.line {
+  max-width: 100%;
+  border-bottom: 2px solid #ff4e50;
+  margin-bottom: 36px;
+}
+
+.footer {
+  margin-bottom: 36px;
+}
+.footer--row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer--column--dreamshare {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff4e50;
+}
+.footer--column--h4 {
+  margin-bottom: 11px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+.footer--column--list {
+  list-style-type: none;
+}
+.footer--column--item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+}
+.footer--column--designed {
+  margin-bottom: 7px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: end;
+  color: #CCCCCC;
+}

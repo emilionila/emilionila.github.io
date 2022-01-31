@@ -1,0 +1,104 @@
+@import "variables";
+
+.meet-partner {
+  &--row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -9.5px;
+  }
+
+  &--column {
+    padding: 0 9.5px;
+  }
+
+  &--image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+      &.person-1{
+        position: relative;
+        background-image: url('../images/person%201.png');
+      }
+      &.person-2{
+        position: relative;
+        background-image: url('../images/person%202.png');
+      }
+      &.person-3{
+        position: relative;
+        background-image: url('../images/person%203.png');
+      }
+      &.person-4{
+        position: relative;
+        background-image: url('../images/person%204.png');
+      }
+  }
+
+  &--name {
+    margin-top: 17px;
+    margin-bottom: 12px;
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $heading-color;
+  }
+
+  &--description {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+  }
+
+  &--button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    background: $color-white;
+    border: 2px solid $primary-color;
+    box-sizing: border-box;
+    border-radius: 40px;
+    color: $primary-color;
+    padding: 12px 19px 11px 24px;
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    transition: 1.2s ease;
+  }
+  &--button:hover{
+    background: $primary-color;
+    color: $color-white;
+  }
+}
+
+.icon{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  border-radius: 50%;
+  text-align: center;
+  font-style: normal;
+  border: 4px solid $color-white;
+    &-music{background-color: $primary-color;}
+    &-brush{background-color: $brush-bg;}
+    &-camera{background-color: $camera-bg;}
+    &-airplane{background-color: $plane-bg; padding-top: 4px; padding-left: 5px;}
+}

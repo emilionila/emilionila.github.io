@@ -1,0 +1,96 @@
+@media (max-width: 769px) {
+  .container{
+    padding: 0 10px ;
+  }
+  .header{
+    padding-left: 48px;
+    padding-right: 50px;
+    background-image: url('../images/Bitmap.png');
+  }
+  .how--works--headings{
+    font-size: 24px;
+    line-height: 14px;
+  }
+  .meet-partner--column{
+    padding: 20px 75px;
+  }
+  .footer{
+    padding-left: 39px;
+    padding-right: 37px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header{
+    height: 70vh;
+  }
+  .header:before{
+    height: 70vh;
+  }
+  .main-headings {
+    margin-top: 34px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .header--row{
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    row-gap: 125px;
+  }
+  .header--txt{
+    margin-top: 26.5px;
+    &__main{
+      margin: 0 -35px;
+      font-size: 30px;
+      line-height: 37px;
+      margin-top: 0;
+    }
+  }
+  .header--txt__p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .header--button{
+    padding: 12px 46.5px 11px 46.5px;
+    margin: 0 -40px;
+    margin-top: 27px;
+  }
+  .how-works--row {
+    flex-wrap: wrap;
+  }
+  .how-works--col{
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .meet-partner--button{
+    padding: 12px 69px 11px 74px;
+  }
+  .activities-item {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  .form__input{
+    max-width: 280px;
+    margin-bottom: 10px;
+    padding: 14px 139px 10px 15px;
+  }
+  .form__button{
+    padding: 12px 76px 11px 87px;
+  }
+  .footer--column--dreamshare, .footer--column--h4, .footer--column--designed{
+    text-align: center;
+  }
+  .footer--column-logo, .logo{
+    margin: 0 auto;
+  }
+  .footer--column--list{
+    display: flex;
+    flex-wrap: wrap
+  }
+  .list{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}

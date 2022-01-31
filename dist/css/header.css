@@ -1,0 +1,103 @@
+.header {
+  height: 100vh;
+  background-image: url("../images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.header--row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+.header--column {
+  z-index: 2;
+}
+.header--dreamshare {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.header--nav__list {
+  list-style-type: none;
+}
+.header--nav__item {
+  display: inline-block;
+}
+.header--nav__link {
+  margin-left: 19px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.header--nav__link.--modifier {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 10px 17px 9px 18px;
+}
+.header--txt {
+  text-align: center;
+  margin-top: 153.5px;
+}
+.header--txt__main {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+.header--txt__p {
+  padding-top: 28.5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: #F7F3F2;
+}
+.header--button {
+  margin: 33px;
+  background: #ff4e50;
+  border: none;
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  padding: 12px 18.5px 11px 19.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 1.2s ease;
+}
+.header--button:hover {
+  background: #FFFFFF;
+  color: #ff4e50;
+  cursor: pointer;
+}
+
+.header:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  mix-blend-mode: normal;
+}

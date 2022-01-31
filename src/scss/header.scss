@@ -1,0 +1,107 @@
+@import "variables";
+
+
+.header {
+  height: 100vh;
+  background-image: url('../images/Bitmap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+    &--row{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 46px;
+    }
+    &--column{
+      z-index: 2;
+    }
+    &--dreamshare {
+      text-decoration: none;
+      font-family: $font-montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: $color-white;
+    }
+    &--nav__list {
+      list-style-type: none;
+    }
+    &--nav__item {
+      display: inline-block;
+    }
+    &--nav__link {
+      margin-left: 19px;
+      text-decoration: none;
+      font-family: $font-montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: $color-white;
+        &.--modifier{
+          width: 90px;
+          height: 36px;
+          border: 2px solid $color-white;
+          border-radius: 40px;
+          box-sizing: border-box;
+          padding: 10px 17px 9px 18px;
+        }
+    }
+
+    &--txt{
+      text-align: center;
+      margin-top: 153.5px;
+        &__main{
+          font-family: $font-montserrat;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 52px;
+          line-height: 63px;
+          color: $color-white;
+        }
+        &__p {
+          padding-top: 28.5px;
+          font-family: $font-roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 24px;
+          color: #F7F3F2;
+        }
+    }
+    &--button {
+      margin: 33px;
+      background: $primary-color;
+      border: none;
+      border-radius: 40px;
+      font-family: $font-montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: $color-white;
+      padding: 12px 18.5px 11px 19.5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition: 1.2s ease;
+    }
+    &--button:hover{
+      background: $color-white;
+      color: $primary-color;
+      cursor: pointer;
+    }
+}
+
+.header:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $color-black;
+  mix-blend-mode: normal;
+}

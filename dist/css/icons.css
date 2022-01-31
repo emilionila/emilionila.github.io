@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../icons/icomoon.eot?5ytt8u");
+  src: url("../icons/icomoon.eot?5ytt8u#iefix") format("embedded-opentype"), url("../icons/icomoon.ttf?5ytt8u") format("truetype"), url("../icons/icomoon.woff?5ytt8u") format("woff"), url("../icons/icomoon.svg?5ytt8u#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-]:before, [class*=" icon-"]:before {
+  font-family: "icomoon", fantasy !important;
+}
+
+.icon-airplane:before {
+  content: "\e900";
+  color: #fff;
+  font-size: 25px;
+}
+
+.icon-brush:before {
+  content: "\e901";
+  color: #fff;
+}
+
+.icon-camera:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.icon-music:before {
+  content: "\e903";
+  color: #fff;
+}

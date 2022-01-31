@@ -1,0 +1,105 @@
+.meet-partner--row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -9.5px;
+}
+.meet-partner--column {
+  padding: 0 9.5px;
+}
+.meet-partner--image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.meet-partner--image.person-1 {
+  position: relative;
+  background-image: url("../images/person%201.png");
+}
+.meet-partner--image.person-2 {
+  position: relative;
+  background-image: url("../images/person%202.png");
+}
+.meet-partner--image.person-3 {
+  position: relative;
+  background-image: url("../images/person%203.png");
+}
+.meet-partner--image.person-4 {
+  position: relative;
+  background-image: url("../images/person%204.png");
+}
+.meet-partner--name {
+  margin-top: 17px;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #444444;
+}
+.meet-partner--description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #666666;
+}
+.meet-partner--button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  background: #FFFFFF;
+  border: 2px solid #ff4e50;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 12px 19px 11px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  transition: 1.2s ease;
+}
+.meet-partner--button:hover {
+  background: #ff4e50;
+  color: #FFFFFF;
+}
+
+.icon {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  border-radius: 50%;
+  text-align: center;
+  font-style: normal;
+  border: 4px solid #FFFFFF;
+}
+.icon-music {
+  background-color: #ff4e50;
+}
+.icon-brush {
+  background-color: #19d4ca;
+}
+.icon-camera {
+  background-color: #ffa710;
+}
+.icon-airplane {
+  background-color: #667df3;
+  padding-top: 4px;
+  padding-left: 5px;
+}

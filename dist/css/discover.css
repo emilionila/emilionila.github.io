@@ -1,0 +1,39 @@
+.discover--row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.discover--column {
+  padding: 0 10px;
+}
+
+.activities-item {
+  position: relative;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.activities-item__image {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.activities-item__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: center;
+  inline-size: fit-content;
+  z-index: 2;
+}
